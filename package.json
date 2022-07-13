@@ -1,0 +1,29 @@
+{
+  "name": "souziin_architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "gulp prepare",
+    "assets": "gulp assets",
+    "build": "gulp build",
+    "live": "gulp live",
+    "dev": "gulp dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/register": "^7.18.6",
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.53.0"
+  }
+}
